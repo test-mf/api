@@ -13,6 +13,10 @@ export async function getUserNumbers(): Promise<UserNumber[]> {
 	return userNumbers;
 }
 
+export async function getUserBalance(): Promise<number> {
+	return 5000;
+}
+
 export async function userSignIn(
 	username: string,
 	password: string
