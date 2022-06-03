@@ -1,0 +1,27 @@
+{
+  "name": "@test-mf/api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+	"module": "./dist/main.js",
+  "scripts": {
+    "build": "tsc"
+  },
+	"publishConfig": {
+		"@test-mf/api:registry": "https://npm.pkg.github.com"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/test-mf/api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/test-mf/api/issues"
+  },
+  "homepage": "https://github.com/test-mf/api#readme",
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  }
+}
