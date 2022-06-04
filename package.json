@@ -1,6 +1,6 @@
 {
 	"name": "@test-mf/api",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "",
 	"main": "./dist/src/index.js",
 	"module": "./dist/src/index.js",
